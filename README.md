@@ -15,6 +15,7 @@ TODO - check licencing
 The following components are installed:
 * NSX-T Ansible modules
 * Cloud Director Ansible Modules and Roles
+* Cloud Director Cli
 * Terraform providers for
   * vcd
   * nsxt
