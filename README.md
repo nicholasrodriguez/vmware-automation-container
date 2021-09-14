@@ -21,7 +21,7 @@ The following components are installed:
   * nsxt
   * avi
 
-The Anisble modules and roles are all installed under /usr/share/ansible so should be accessible to Ansible. VMware haven't published them to Galaxy properly hance the manual install.
+The Anisble modules and roles are all installed under /usr/share/ansible so should be accessible to Ansible. VMware haven't published them to Galaxy properly hence the manual install.
 
 The Terraform providers have been installed under /root/terraform. Dev work can be performed in that directory.
 
