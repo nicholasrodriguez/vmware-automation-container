@@ -13,15 +13,15 @@ TODO - check licencing
 
 # VMware components included
 The following components are installed:
-* NSX-T Ansible modules
-* Cloud Director Ansible Modules and Roles
-* Cloud Director Cli
-* Terraform providers for
+* NSX-T Ansible modules [https://github.com/vmware/ansible-for-nsxt]
+* Cloud Director Ansible Modules and Roles [https://github.com/vmware/ansible-module-vcloud-director]
+* Cloud Director Cli [http://vmware.github.io/vcd-cli/]
+* Terraform providers for the following: [https://registry.terraform.io/search/providers?namespace=vmware]
   * vcd
   * nsxt
   * avi
 
-The Anisble modules and roles are all installed under /usr/share/ansible so should be accessible to Ansible
+The Anisble modules and roles are all installed under /usr/share/ansible so should be accessible to Ansible. VMware haven't published them to Galaxy properly hance the manual install.
 The Terraform providers have been installed under /root/terraform. Dev work can be performed in that directory.
 
 # Container Build
